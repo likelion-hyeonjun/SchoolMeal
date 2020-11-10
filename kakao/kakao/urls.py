@@ -19,6 +19,6 @@ from bot import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('keyboard',views.keyboard),
-    path('message',views.message),
+    path('depart',views.depart),
+    path('initialize',views.initialize),
 ]
